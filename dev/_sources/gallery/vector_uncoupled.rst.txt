@@ -54,7 +54,7 @@ pipeline.
 
     [5 rows x 6 columns]
     Chain(steps=[('mean',
-                  BlockReduce(reduction=<function mean at 0x7f651990f310>,
+                  BlockReduce(reduction=<function mean at 0x7f969385d1f0>,
                               spacing=37000.0)),
                  ('trend', Vector(components=[Trend(degree=1), Trend(degree=1)])),
                  ('spline',
@@ -63,8 +63,6 @@ pipeline.
     /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
       warnings.warn(
     Cross-validation R^2 score: 0.78
-    /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:463: FutureWarning: The 'spacing', 'shape' and 'region' arguments will be removed in Verde v2.0.0. Please use the 'verde.grid_coordinates' function to define grid coordinates and pass them as the 'coordinates' argument.
-      warnings.warn(
 
 
 
@@ -172,7 +170,7 @@ pipeline.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  0.148 seconds)
+   **Total running time of the script:** ( 0 minutes  0.236 seconds)
 
 
 .. _sphx_glr_download_gallery_vector_uncoupled.py:

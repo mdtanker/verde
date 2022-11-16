@@ -5,26 +5,26 @@
 
 Computation times
 =================
-**00:14.475** total execution time for **tutorials** files:
+**00:33.794** total execution time for **tutorials** files:
 
 +-------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_tutorials_chain.py` (``chain.py``)                       | 00:03.798 | 0.0 MB |
+| :ref:`sphx_glr_tutorials_chain.py` (``chain.py``)                       | 00:15.765 | 0.0 MB |
 +-------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_tutorials_weights.py` (``weights.py``)                   | 00:02.703 | 0.0 MB |
+| :ref:`sphx_glr_tutorials_weights.py` (``weights.py``)                   | 00:04.543 | 0.0 MB |
 +-------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_tutorials_decimation.py` (``decimation.py``)             | 00:02.597 | 0.0 MB |
+| :ref:`sphx_glr_tutorials_decimation.py` (``decimation.py``)             | 00:04.385 | 0.0 MB |
 +-------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_tutorials_projections.py` (``projections.py``)           | 00:01.585 | 0.0 MB |
+| :ref:`sphx_glr_tutorials_vectors.py` (``vectors.py``)                   | 00:02.501 | 0.0 MB |
 +-------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_tutorials_vectors.py` (``vectors.py``)                   | 00:01.309 | 0.0 MB |
+| :ref:`sphx_glr_tutorials_projections.py` (``projections.py``)           | 00:02.416 | 0.0 MB |
 +-------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_tutorials_model_selection.py` (``model_selection.py``)   | 00:01.045 | 0.0 MB |
+| :ref:`sphx_glr_tutorials_model_selection.py` (``model_selection.py``)   | 00:01.697 | 0.0 MB |
 +-------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_tutorials_overview.py` (``overview.py``)                 | 00:00.579 | 0.0 MB |
+| :ref:`sphx_glr_tutorials_overview.py` (``overview.py``)                 | 00:01.010 | 0.0 MB |
 +-------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_tutorials_model_evaluation.py` (``model_evaluation.py``) | 00:00.322 | 0.0 MB |
+| :ref:`sphx_glr_tutorials_trends.py` (``trends.py``)                     | 00:00.526 | 0.0 MB |
 +-------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_tutorials_trends.py` (``trends.py``)                     | 00:00.302 | 0.0 MB |
+| :ref:`sphx_glr_tutorials_model_evaluation.py` (``model_evaluation.py``) | 00:00.503 | 0.0 MB |
 +-------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_tutorials_grid_coordinates.py` (``grid_coordinates.py``) | 00:00.236 | 0.0 MB |
+| :ref:`sphx_glr_tutorials_grid_coordinates.py` (``grid_coordinates.py``) | 00:00.448 | 0.0 MB |
 +-------------------------------------------------------------------------+-----------+--------+

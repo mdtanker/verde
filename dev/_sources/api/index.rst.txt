@@ -15,6 +15,9 @@ Interpolators
 
     Spline
     SplineCV
+    KNeighbors
+    Linear
+    Cubic
     VectorSpline2D
     ScipyGridder
 
@@ -54,6 +57,7 @@ Coordinate Manipulation
 .. autosummary::
    :toctree: generated/
 
+    line_coordinates
     grid_coordinates
     scatter_points
     profile_coordinates
@@ -121,6 +125,12 @@ Synthetic data
 
 Datasets
 --------
+
+.. warning::
+
+    All sample datasets in Verde are deprecated and will be **removed in Verde
+    v2.0.0**. The tutorials/examples will transition to using `Ensaio
+    <https://www.fatiando.org/ensaio/>`__ instead.
 
 .. autosummary::
    :toctree: generated/

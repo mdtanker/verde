@@ -100,7 +100,7 @@ default parameters.
       warnings.warn(
     /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
       warnings.warn(
-    R² with defaults: 0.7960368854827318
+    R² with defaults: 0.79603688548628
 
 
 
@@ -339,7 +339,7 @@ parameter set.
       warnings.warn(
     /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
       warnings.warn(
-    [-6.672752078316156, 0.48454031726760033, 0.8383522700289536, 0.8371988991061082, 0.8351153077356239, 0.8316607510153243, 0.8492629931166998, 0.8418400888335178, 0.8371795091891814, 0.8412200336667064, 0.85295550824611, 0.8521727667615092, 0.840194516193671, 0.8330182923875661, 0.8441706458561116, 0.8491145591353838]
+    [-6.672752073427877, 0.48454031727820557, 0.8383522700289798, 0.8371988991061319, 0.835115307736309, 0.8316607509386451, 0.8492629931050667, 0.8418400888226442, 0.837179509187768, 0.8412200336682238, 0.8529555082457214, 0.8521727667603762, 0.8401945161938237, 0.8330182923876484, 0.8441706458562779, 0.8491145591357624]
 
 
 
@@ -368,8 +368,8 @@ The largest score will yield the best parameter combination.
 
  .. code-block:: none
 
-    Best score: 0.85295550824611
-    Score with defaults: 0.7960368854827318
+    Best score: 0.8529555082457214
+    Score with defaults: 0.79603688548628
     Best parameters: {'damping': 0.001, 'mindist': 50000.0}
 
 
@@ -595,10 +595,16 @@ combinations to find the one that maximizes the cross-validation score.
     /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
       warnings.warn(
 
-    SplineCV(dampings=[None, 0.0001, 0.001, 0.01],
-             mindists=[5000.0, 10000.0, 50000.0, 100000.0])
 
+.. raw:: html
 
+    <div class="output_subarea output_html rendered_html output_result">
+    <style>#sk-container-id-3 {color: black;background-color: white;}#sk-container-id-3 pre{padding: 0;}#sk-container-id-3 div.sk-toggleable {background-color: white;}#sk-container-id-3 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-3 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-3 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-3 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-3 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-3 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-3 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-3 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-3 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-3 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-3 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-3 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-3 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-3 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-3 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-3 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-3 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-3 div.sk-item {position: relative;z-index: 1;}#sk-container-id-3 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-3 div.sk-item::before, #sk-container-id-3 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-3 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-3 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-3 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-3 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-3 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-3 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-3 div.sk-label-container {text-align: center;}#sk-container-id-3 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-3 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-3" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>SplineCV(dampings=[None, 0.0001, 0.001, 0.01],
+             mindists=[5000.0, 10000.0, 50000.0, 100000.0])</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-3" type="checkbox" checked><label for="sk-estimator-id-3" class="sk-toggleable__label sk-toggleable__label-arrow">SplineCV</label><div class="sk-toggleable__content"><pre>SplineCV(dampings=[None, 0.0001, 0.001, 0.01],
+             mindists=[5000.0, 10000.0, 50000.0, 100000.0])</pre></div></div></div></div></div>
+    </div>
+    <br />
+    <br />
 
 .. GENERATED FROM PYTHON SOURCE LINES 128-130
 
@@ -624,7 +630,7 @@ cross-validation scores, are stored in class attributes:
 
  .. code-block:: none
 
-    Highest score: 0.85295550824611
+    Highest score: 0.8529555082457214
     Best damping: 0.001
     Best mindist: 50000.0
 
@@ -660,8 +666,6 @@ The cross-validated gridder can be used like any other gridder (including in
 
  .. code-block:: none
 
-    /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:463: FutureWarning: The 'spacing', 'shape' and 'region' arguments will be removed in Verde v2.0.0. Please use the 'verde.grid_coordinates' function to define grid coordinates and pass them as the 'coordinates' argument.
-      warnings.warn(
     <xarray.Dataset>
     Dimensions:      (latitude: 43, longitude: 51)
     Coordinates:
@@ -839,46 +843,6 @@ executed and the optimal parameters are found immediately.
       warnings.warn(
     /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
       warnings.warn(
-    /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
-      warnings.warn(
-    /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
-      warnings.warn(
-    /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
-      warnings.warn(
-    /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
-      warnings.warn(
-    /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
-      warnings.warn(
-    /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
-      warnings.warn(
-    /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
-      warnings.warn(
-    /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
-      warnings.warn(
-    /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
-      warnings.warn(
-    /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
-      warnings.warn(
-    /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
-      warnings.warn(
-    /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
-      warnings.warn(
-    /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
-      warnings.warn(
-    /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
-      warnings.warn(
-    /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
-      warnings.warn(
-    /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
-      warnings.warn(
-    /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
-      warnings.warn(
-    /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
-      warnings.warn(
-    /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
-      warnings.warn(
-    /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:359: FutureWarning: The default scoring will change from R² to negative root mean squared error (RMSE) in Verde 2.0.0. This may change model selection results slightly.
-      warnings.warn(
     Best damping: 0.001
     Best mindist: 50000.0
 
@@ -908,7 +872,7 @@ intermediate values in the scheduled computations.
 
  .. code-block:: none
 
-    Delayed scores: [Delayed('mean-1e8fd395-1ff3-4041-85ea-49601fb3efc0'), Delayed('mean-befc8709-68fe-4662-a37b-3c0331398630'), Delayed('mean-d7690ae3-8f6b-4841-b1cc-e851eda9d1ba'), Delayed('mean-aab19113-a21b-40dd-b13e-bec5e4f46d08'), Delayed('mean-86089a66-f96f-4ddd-9904-45150638dc00'), Delayed('mean-4e57a481-40d5-4ca3-847d-d49008bc03c7'), Delayed('mean-0c97ab1d-2296-4428-9243-a6f9148021fd'), Delayed('mean-1758820a-b227-442c-8281-96de039ce203'), Delayed('mean-4faf75cb-cc54-4f60-866c-0b1931812b2a'), Delayed('mean-c691d0d0-5e12-42bb-adcf-69598b12ed6f'), Delayed('mean-b4398329-1068-47d6-9940-d994dfae4408'), Delayed('mean-1b47fa41-424f-423f-8fe2-c5dc30baecf9'), Delayed('mean-eb423afa-2e32-484e-9f83-d4e4b050ded1'), Delayed('mean-d9a2d3b5-54e5-49c0-9d09-597338fc92f4'), Delayed('mean-37b48171-d84a-482e-bfed-30307d8afd38'), Delayed('mean-a5216e90-4f79-48e5-b650-a2b0d45d6d4b')]
+    Delayed scores: [Delayed('mean-050c2311-b7d1-4286-a4d1-11964ed6d08e'), Delayed('mean-75faa6fa-8137-4357-94cc-54793972a44a'), Delayed('mean-186fbff0-b6ad-471e-ba0f-15d617bcc2e6'), Delayed('mean-58f3fff9-3f76-473d-9acb-ac44ec922872'), Delayed('mean-a008f635-f92e-4781-9c4e-75c274b45705'), Delayed('mean-b86c8776-3406-49fa-af92-403a3bb48e31'), Delayed('mean-e50cfc14-a9dc-498f-b1d9-a92de199423b'), Delayed('mean-8b4e330d-744c-4a96-9339-fa79a732d34f'), Delayed('mean-ddd10339-5312-4024-9e4b-d1f8b93d0ff1'), Delayed('mean-3eb9a305-ff06-4d1c-a6b6-4b6876332e02'), Delayed('mean-18d7498c-0650-424d-be24-522f5793c956'), Delayed('mean-12ab1aa3-620b-4744-b20d-7a5c8d2492b4'), Delayed('mean-a554d3a2-ebde-4f37-815a-c28af18ccfb5'), Delayed('mean-9eb731b3-0730-4c28-824c-3d9d1c25aa87'), Delayed('mean-e7ba9114-7cd4-4d1a-9b24-358eb694734c'), Delayed('mean-e72c78a7-25ef-4ffb-968f-c6b2b879293c')]
 
 
 
@@ -944,15 +908,6 @@ with the best configuration and see how it compares to the default result.
 
 
 
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    /usr/share/miniconda3/envs/test/lib/python3.9/site-packages/verde/base/base_classes.py:463: FutureWarning: The 'spacing', 'shape' and 'region' arguments will be removed in Verde v2.0.0. Please use the 'verde.grid_coordinates' function to define grid coordinates and pass them as the 'coordinates' argument.
-      warnings.warn(
 
 
 
@@ -1017,7 +972,7 @@ short wavelength features that we get from the defaults.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  1.045 seconds)
+   **Total running time of the script:** ( 0 minutes  1.697 seconds)
 
 
 .. _sphx_glr_download_tutorials_model_selection.py:
